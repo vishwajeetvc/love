@@ -52,3 +52,17 @@ a {
     color:white;
     font-family:Montserrat;
 }
+button {
+   padding:10px 15px; 
+   display:block;
+   margin:auto;
+   margin-top:30px;
+   text-decoration:none;
+   background:red;
+   color:white;
+   font-family:Montserrat;
+   font-weight:bold;
+   border:none;
+   border-radius:5px;
+
+}

@@ -18,14 +18,17 @@
        <div class="items">
 	   <h2 id="demo"></h2>
 	   <h3 id="demo">You love with your's!!</h3>
+	   <button onclick="myfunction()">Click here to Check !</button>
 	   <a href="https://vishwajeetvc.github.io/cv">Have a look at my Profile!</a>
        </div>
    </div>
 </body>
 <script>
-    prompt("Enter your Good Name!")
-    prompt("Enter your's Good Name!")
-    var num=Math.floor(Math.random()*98)
-    document.getElementById("demo").innerHTML=num+"%";
+    function myfunction(){
+	prompt("Enter your Good Name!")
+	prompt("Enter your's Good Name!")
+	var num=Math.floor(Math.random()*98)
+	document.getElementById("demo").innerHTML=num+"%";
+    }
 </script>
 </html>
